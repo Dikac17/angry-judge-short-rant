@@ -1,5 +1,17 @@
+# Keep the repo clean: ignore local tooling, build outputs, caches, and bundle files so only the entry source stays tracked.
 *-kit/
-kit.tar.gz
-out/
-__pycache__/
+*.tar.gz
+*.makefun-bundle
 node_modules/
+dist/
+build/
+out/
+.next/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+logs/
+.env
+coverage/
